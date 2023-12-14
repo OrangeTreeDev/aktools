@@ -6,7 +6,7 @@
   "tasks": {
     "start": {
       "name": "start",
-      "command": "uvicorn main:app --reload",
+      "command": "uvicorn aktools.main:app --reload",
       "runAtStart": true
     }
   }
